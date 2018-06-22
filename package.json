@@ -4,12 +4,14 @@
   "description": "A server to render math formulas",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon server.js"
   },
   "author": "croese@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
     "nodemon": "^1.17.5"
   },
   "dependencies": {
